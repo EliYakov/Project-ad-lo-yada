@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  background-color: #f2f2f2;
+}
+
+h5,
+h2,
+h1 {
+  font-family: "Varela Round", sans-serif;
+  color: #8cbf3f;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+}
+
+.navbar {
+  background-color: #9453a6;
+  font-size: 20px;
+  text-shadow: -1px 0 #f2f2f2, 0 2px black, 1px 0 black, 0 -1px black;
+}
+
+#navbarSupportedContent {
+  justify-content: space-between;
+  margin-left: 5;
+  font-family: "Varela Round", sans-serif;
+}
+
+.carousel-inner > .carousel-item > .carousel-caption {
+  color: #f2f2f2;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.w-100 {
+  max-height: 750px;
+}
+
+.card-img-top {
+  height: 100px;
+  width: 100px;
+}
+
+.navbar-brand img {
+  height: 150px;
+}
+
+.container > div > img {
+  height: 300px;
+}
+
+.icons > a > img {
+  height: 50px;
+  padding: 5px;
+}
+
+footer {
+  background-color: #9453a6;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  transition: 1s;
+  padding: 5px;
+}
+
+.gallery img:hover {
+  filter: drop-shadow(4px 4px 6px gray);
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
