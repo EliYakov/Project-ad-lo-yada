@@ -60,12 +60,18 @@ p {
 }
 
 .icons > a > img {
-  height: 50px;
-  padding: 5px;
+  height: 40px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 footer {
   background-color: $secondaryColor;
+  padding: 10px;
+}
+
+footer > p {
+  font-size: 15px;
 }
 
 .gallery img {
